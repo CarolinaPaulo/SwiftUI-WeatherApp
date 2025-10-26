@@ -11,6 +11,7 @@
 		CE4668BE2EAEAC2800FC7123 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE4668BD2EAEAC2800FC7123 /* ContentView.swift */; };
 		CE4668C02EAEAC2B00FC7123 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE4668BF2EAEAC2B00FC7123 /* Assets.xcassets */; };
 		CE4668C32EAEAC2B00FC7123 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE4668C22EAEAC2B00FC7123 /* Preview Assets.xcassets */; };
+		CE4668CA2EAEB7D100FC7123 /* DayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE4668C92EAEB7D100FC7123 /* DayView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		CE4668BD2EAEAC2800FC7123 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		CE4668BF2EAEAC2B00FC7123 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CE4668C22EAEAC2B00FC7123 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		CE4668C92EAEB7D100FC7123 /* DayView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DayView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,6 +37,7 @@
 		CE4668AF2EAEAC2800FC7123 = {
 			isa = PBXGroup;
 			children = (
+				CE4668CB2EAEC38D00FC7123 /* New Group */,
 				CE4668BA2EAEAC2800FC7123 /* SwiftUI-Weather */,
 				CE4668B92EAEAC2800FC7123 /* Products */,
 			);
@@ -53,6 +56,7 @@
 			children = (
 				CE4668BB2EAEAC2800FC7123 /* SwiftUI_WeatherApp.swift */,
 				CE4668BD2EAEAC2800FC7123 /* ContentView.swift */,
+				CE4668C92EAEB7D100FC7123 /* DayView.swift */,
 				CE4668BF2EAEAC2B00FC7123 /* Assets.xcassets */,
 				CE4668C12EAEAC2B00FC7123 /* Preview Content */,
 			);
@@ -65,6 +69,13 @@
 				CE4668C22EAEAC2B00FC7123 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		CE4668CB2EAEC38D00FC7123 /* New Group */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "New Group";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,6 +149,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CE4668BE2EAEAC2800FC7123 /* ContentView.swift in Sources */,
+				CE4668CA2EAEB7D100FC7123 /* DayView.swift in Sources */,
 				CE4668BC2EAEAC2800FC7123 /* SwiftUI_WeatherApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
